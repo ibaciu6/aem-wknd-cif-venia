@@ -1,8 +1,10 @@
 # AEM WKND + CIF Venia Merged Project
 
+[![GitHub Release](https://img.shields.io/github/v/release/ibaciu6/aem-wknd-cif-venia)](https://github.com/ibaciu6/aem-wknd-cif-venia/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java 21](https://img.shields.io/badge/Java-21-blue.svg)](https://openjdk.org/projects/jdk/21/)
 [![Maven 3.9.4+](https://img.shields.io/badge/Maven-3.9.4+-green.svg)](https://maven.apache.org/)
+[![AEM as a Cloud Service](https://img.shields.io/badge/AEM-Cloud%20Service-orange.svg)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
 
 A merged Adobe Experience Manager (AEM) project combining two official Adobe reference implementations:
 
@@ -48,14 +50,24 @@ This project demonstrates how to integrate content management and commerce capab
 
 ## 🚀 Quick Start
 
-### Clone the Repository
+### Option 1: Download Pre-built Package (Easiest)
+
+Download the latest release package and install it directly via Package Manager:
+
+1. Go to [Releases](https://github.com/ibaciu6/aem-wknd-cif-venia/releases/latest)
+2. Download `aem-wknd-cif-venia.all-1.0.0.zip`
+3. Install via [CRX Package Manager](http://localhost:4502/crx/packmgr)
+
+### Option 2: Build from Source
+
+#### Clone the Repository
 
 ```bash
 git clone https://github.com/ibaciu6/aem-wknd-cif-venia.git
 cd aem-wknd-cif-venia
 ```
 
-### Build the Project
+#### Build the Project
 
 **For AEM as a Cloud Service SDK:**
 
